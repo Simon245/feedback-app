@@ -25,6 +25,8 @@ export const FeedbackProvider = ({ children }) => {
         item.id === id ? { ...item, ...updateItem } : item,
       ),
     );
+
+    setFeedbackEdit({ item: {}, edit: false });
   };
 
   const editFeedback = (item) => {
