@@ -1,5 +1,8 @@
 /src/assets
+/public
+
 # Compiled output
+/build
 /dist
 /tmp
 /out-tsc
